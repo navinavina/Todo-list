@@ -1,0 +1,113 @@
+body {
+    background-image: url('https://images.pexels.com/photos/3689659/pexels-photo-3689659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    max-width: 100px; /* Adjusted maximum width */
+    margin: 10% auto; /* Center align with some top margin */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content inside container */
+}
+
+h1 {
+   text-align: center;
+    padding: 10px;
+    background-color: rgba(185, 217, 235, 0.8); /* Transparent light blue */
+    border-radius: 0px;
+    width: 100%; /* Full width */
+    margin: 0 auto 20px; /* Center align and add spacing */
+    font-weight: normal;
+}
+
+
+/* Center align "Enter your task" label and input */
+.label-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping items if necessary */
+    margin-bottom: 20px;
+}
+
+label[for="newTodo"] {
+    font-size: 20px;
+    font-weight: 100;
+    background-color: rgba(185, 217, 235, 0.8);/* Background color for the label */
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 10px; /* Add spacing between label and input */
+}
+
+input[type="text"] {
+    width: 500px; /* Adjusted width to accommodate button and space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid antiquewhite;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    width: 120px; /* Increased button width */
+    padding: 12px; /* Increased button padding */
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background-color: rgba(185, 217, 235, 0.8);;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(39, 147, 176);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: rgba(185, 217, 235, 0.8);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+li label {
+    flex: 1;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+li button {
+    border: none;
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px; /* Adjusted button padding */
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li button:hover {
+    background-color: #d32f2f;
+}
